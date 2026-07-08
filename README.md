@@ -1,6 +1,6 @@
 # Pairs Trading Screener — Statistical Arbitrage on S&P 500 Financials
 
-**Note** Pairs Trading Screener can be modified for any time-range and any group of stocks. Function for metrics and graphs of two stocks can be run for any stocks, any yfinance supported time frames, and any z-scores boundaries. Train/Test timeframes are split halfway for backtesting. CSV files initially sorted by Sharpe ratio and Test Sharpe ratio.
+**Note** The screener can be modified for any time-range and any group of stocks. Function for metrics and graphs of two stocks can be run for any stocks, any yfinance supported time frames, and any z-scores boundaries. Train/test timeframes are split halfway for backtesting. CSV files initially sorted by Sharpe ratio and Test Sharpe ratio.
 
 A pairs trading code in Python that screens all stocks in the S&P financial sector, identifies statistically correlated trading pairs using Augmented Dickey-Fuller (ADF) test, backtests the mean-reversion strategies, and ranks by performance per unit risk, returning CSV files of all valid companies and their backtests. The time frames can be manipulated as well as the companies tested (can screen whole S&P or just certain sectors over any yfinance period).
 
