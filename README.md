@@ -1,4 +1,4 @@
-# Pairs Trading Screener (and metrics function)
+# Pairs Trading Screener 
 
 **Note** The screener can be modified for any time-range and any group of stocks. Function for metrics and graphs of two stocks can be run for any stocks, any yfinance supported time frames, and any z-scores boundaries. Train/test timeframes are split halfway for backtesting. CSV files initially sorted by Sharpe ratio and Test Sharpe ratio.
 
